@@ -63,7 +63,7 @@
      inkscape:cx="5.2582051"
      inkscape:cy="20.053276"
      inkscape:document-units="px"
-     inkscape:current-layer="g3804"
+     inkscape:current-layer="g3718-0"
      showgrid="false"
      inkscape:window-width="2068"
      inkscape:window-height="1387"
@@ -168,9 +168,8 @@
                sodipodi:nodetypes="ccccc"
                inkscape:connector-curvature="0"
                id="path3853-3"
-               d="M 316.53089,193.09245 562.12926,609.2673 893.85238,237.61035 460.44745,33.371828 z"
-               style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:44.25592422;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-               transform="matrix(0.05611718,0,0,0.05716338,128.88327,-24.478909)" />
+               d="m 147.39374,-14.137898 11.37967,19.6427542 15.37023,-17.5415842 -20.0816,-9.639716 z"
+               style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:2.06960249;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
             <path
                style="fill:none;stroke:#ffffff;stroke-width:2.12392068;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
                d="m 142.07904,-24.83606 -2.29208,-13.70422 0.18559,0.452199 0,0"
