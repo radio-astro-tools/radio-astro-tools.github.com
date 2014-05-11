@@ -603,5 +603,23 @@ ul.team li, ul.coordinators li{
 }
 
 
+div#radiosnakes96 {
+    line-height: 96px;
+    display: inline;
+    vertical-align: middle;
+}
 
+div#header1 {
+	font-size: 24px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+    display: inline;
+    vertical-align: middle;
+}
 
+div#header1withfig {
+    width: 800px;
+    height: 96px;
+    margin-bottom: 10px;
+    margin-top: 80px;
+}
