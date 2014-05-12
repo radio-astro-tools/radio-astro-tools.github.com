@@ -624,3 +624,21 @@ div#header1withfig {
     margin-bottom: 10px;
     margin-top: 80px;
 }
+
+div.twocol {
+    float:left;
+    width:45%;
+    max-width: 1024px;
+}
+
+.left {
+    margin-right: 10%;
+}
+
+div.description {
+    width: 60%;
+}
+
+div.main {
+    width: 80%;
+}
