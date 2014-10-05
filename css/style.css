@@ -19,8 +19,7 @@ time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
-	font: 'Open Sans', sans-serif, inherit;
+	font-family: 'Open Sans', sans-serif, inherit;
 	vertical-align: baseline;
     word-break: initial;
 }
@@ -28,9 +27,6 @@ time, mark, audio, video {
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
-}
-body {
-	line-height: 1;
 }
 ol, ul {
 	list-style: none;
@@ -48,10 +44,9 @@ table {
 	border-spacing: 0;
 }
 
-body{
+body {
 	line-height: 1.25em;
-	font-size: 1.0em;
-	color:#333;
+	font-size: 1em;
 	font-family: 'Open Sans', sans-serif;
 }
 
@@ -104,6 +99,13 @@ h3{
 	font-size: 16px;
 	margin: 20px 0px 10px 0px;
 	
+}
+
+.featured div h3{
+	color:black;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #FFE1D6;
 }
 
 p{
@@ -638,7 +640,7 @@ div.twocol {
 }
 
 div.description {
-    width: 60%;
+    width: 100%;
 }
 
 div.main {

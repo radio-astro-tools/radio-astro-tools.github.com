@@ -11,7 +11,7 @@
 <title>Radio Tools</title>
 </head>
 
-<body id="index-body" style="background: #DDEEEE">
+<body>
 
 
 
@@ -44,7 +44,7 @@
 	</nav>
 </div>
 
-<div class=main align=center>
+<div class=main>
     
     <div id='header1withfig'>
         <div id='radiosnakes96'>
@@ -67,67 +67,75 @@
         The radio-astro-tools organization hosts a number of community-developed
         codes pertinent to the analysis of long-wavelength astronomical data in the
         radio, millimeter, and far-infrared regime.
+
     </div>
 
-    <br>
 
-    <div align=left><h2>Tools:</h2></div>
-    <br>
+	<section class="featured">
+    <h2> Python Packages </h2>
+    <div>
+        <h3> Spectral Cube </h3>
 
-    <div class="twocol left">
-        <a style='font-weight: bold' href="https://github.com/radio-astro-tools/spectral-cube/">Spectral Cube</a>:
+        <img class=left width=200 height=200 src="images/spectralcube.png">
+
+        <p> <a style='font-weight: bold' href="https://github.com/radio-astro-tools/spectral-cube/">Spectral Cube</a>:
         A toolkit for reading, writing, masking, and otherwise manipulating
         the spectral cubes that are typical products of radio
         interferometers and single-dish OTF maps.  It includes a clean interface to 
         <a href="http://yt-project.org">yt</a>, an analysis suite built for simulations
         with powerful visualization tools.
-        <img class=right width=200 height=200 src="images/spectralcube.png">
-        <iframe src="//player.vimeo.com/video/104489207" width="200" height="200" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        <!--<iframe src="//player.vimeo.com/video/104489207" width="200" height="200" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>-->
     </div>
-    <div class="twocol">
+    <div>
+        <h3> PV Extractor </h3>
+
+        <img class=right width=200 src="images/pvextractor.png">
+
         <a style='font-weight: bold' href="https://github.com/radio-astro-tools/pvextractor">PV Extractor</a>:
         A toolkit for the extraction of position-velocity diagrams from
         data cubes.  Includes a matplotlib-based interactive GUI and an
         interface to the ds9 FITS viewer.
-        <img class=right width=200 src="images/pvextractor.png">
     </div>
-    <br> <hr> <br>
-    <hr>
-    <div class="twocol left">
-        <a href="https://github.com/radio-astro-tools/signal-id">Signal Identification</a>:
+    <div>
+        <h3> Signal Identification </h3>
+        <img class=right width=200 src="images/signalid.png">
+        <a style='font-weight: bold' href="https://github.com/radio-astro-tools/signal-id">Signal Identification</a>:
         A toolkit for signal identification and extraction from data cubes.
     </div>
-    <div class="twocol">
-        <a href="https://github.com/radio-astro-tools/radio_beam">Radio Beam</a>:
+    <div>
+        <h3> Radio Telescope Beam </h3>
+        <img class=right width=200 src="images/ellipse.png">
+        <a style='font-weight: bold' href="https://github.com/radio-astro-tools/radio_beam">Radio Beam</a>:
         A small tool for manipulating radio beams, e.g. synthetic beams from interferometers
         and primary beams from single-dishes, in the context of the <a href="http://astropy.readthedocs.org/en/latest/units/">astropy units</a> framework.
     </div>
-    <br> <hr> <br>
-    <div class="twocol left">
-        <a href="https://github.com/radio-astro-tools/casa-python">CASA Python</a>:
+    <div>
+        <h3> CASA Python and CASA pip </h3>
+        <a style='font-weight: bold' href="https://github.com/radio-astro-tools/casa-python">CASA Python</a>:
         A wrapper script to allow you to use CASA's python interpreter with
         other packages and independent from the CASA data reduction environment.
     </div>
-    <div class="twocol">
+    </section>
+
+    <section>
+    <h2> Contributed Scripts </h2>
+    <div>
         <a href="https://github.com/radio-astro-tools/radioscripts_contrib">Contributed Scripts</a>:
         A depository for community-contributed scripts that are not necessarily vetted
         or well-tested but may be useful to others
     </div>
+    </section>
 
-    <br> <hr> <br>
     
+    <section>
+    <h2>Learning:</h2>
 
-
-    <div></div>
-    <br>
-    <div align=left><h2>Learning:</h2></div>
-
-    <div class="twocol left">
+    <div>
         There is a suite of <a href="https://github.com/radio-astro-tools/tutorials">tutorials</a>
     available to demonstrate how to use radio-astro-tools with CASA and for
     various types of data set.
     </div>
-    <div class="twocol">
+    <div>
         If you'd like to <a href="contributing.html">contribute</a>, there's a
         <a href="https://github.com/radio-astro-tools/sandbox">sandbox</a> that
         you can put test code in and use for learning git and github.
@@ -139,7 +147,9 @@
 
     <div align=left><h2>About:</h2></div>
     <div align=left>
-        TODO: Implement "about"
+        Developed by Adam Ginsburg, Tom Robitaille, Chris Beaumont, Adam Leroy,
+        Erik Rosolowsky, Crystal Brogan, Todd Hunter, Sam Skillman, and John
+        ZuHone
     </div>
     <div align=left>
         This project has been partially funded from the ALMA development program funded by the NSF.
@@ -149,7 +159,7 @@
 </div>
 
 
-<a href="logos.htm"> Logo Gallery </a>
+<!--<a href="logos.htm"> Logo Gallery </a>-->
 
 
 </body>
