@@ -637,10 +637,20 @@ div.twocol {
 .left {
     margin-right: 10%;
     float: left;
+    vertical-align: middle;
 }
 
 div.description {
     width: 100%;
+}
+
+div.package {
+}
+
+span.description {
+    width: 100%;
+    vertical-align: middle;
+    
 }
 
 div.main {
