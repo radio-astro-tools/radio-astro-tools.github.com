@@ -94,14 +94,7 @@
             interface to the ds9 FITS viewer.
         </span>
     </div>
-    <div class=package>
-        <h3> Signal Identification </h3>
-        <img class=left width=200 src="images/signalid.png">
-        <span class=description>
-            <a style='font-weight: bold' href="https://github.com/radio-astro-tools/signal-id">Signal Identification</a>:
-            A toolkit for signal identification and extraction from data cubes.
-        </span>
-    </div>
+
     <div class=package>
         <h3> Radio Telescope Beam </h3>
         <img class=left width=200 src="images/ellipse.png">
@@ -111,12 +104,48 @@
             and primary beams from single-dishes, in the context of the <a href="http://astropy.readthedocs.org/en/latest/units/">astropy units</a> framework.
         </span>
     </div>
+
+    <div class=package>
+        <h3> casaformats-io </h3>
+        <img class=left width=200 src="images/ellipse.png">
+        <span class=description>
+            <a style='font-weight: bold' href="https://github.com/radio-astro-tools/casa-formats-io">casa-formats-io</a>:
+            A package to handle reading of CASA tables of all varieties.  This package allows reading CASA <pre>.image</pre> files
+            without using the casacore framework.
+        </span>
+    </div>
+
+
+    </section>
+
+    <section>
+    <h2>Learning:</h2>
+
+    <div class=package>
+        There is a suite of <a href="https://github.com/radio-astro-tools/tutorials">tutorials</a>
+    available to demonstrate how to use radio-astro-tools with CASA and for
+    various types of data set.  If you have any examples you can add, please
+    send them on!  Pull requests are welcome.
+    </div>
+    </section>
+
+    <section>
+    <div class=package>
+        <h3> Signal Identification </h3>
+        <img class=left width=200 src="images/signalid.png">
+        <span class=description>
+            <a style='font-weight: bold' href="https://github.com/radio-astro-tools/signal-id">Signal Identification</a>:
+            A toolkit for signal identification and extraction from data cubes.
+        </span>
+    </div>
     <div class=package>
         <h3> CASA Python and CASA pip </h3>
         <span class=description>
             <a style='font-weight: bold' href="https://github.com/radio-astro-tools/casa-python">CASA Python</a>:
             A wrapper script to allow you to use CASA's python interpreter with
             other packages and independent from the CASA data reduction environment.
+            [Deprecated - instead, several groups have worked together to make sure astropy and related tools
+            can be installed directly into CASA]
         </span>
     </div>
     </section>
@@ -132,16 +161,6 @@
     </div>
     </section>
 
-    
-    <section>
-    <h2>Learning:</h2>
-
-    <div class=package>
-        There is a limited suite of <a href="https://github.com/radio-astro-tools/tutorials">tutorials</a>
-    available to demonstrate how to use radio-astro-tools with CASA and for
-    various types of data set.  If you have any examples you can add, please
-    send them on!
-    </div>
     <div class=package>
         If you'd like to <a href="contribute.html">contribute</a>, there's a
         <a href="https://github.com/radio-astro-tools/sandbox">sandbox</a> that
@@ -154,12 +173,15 @@
 
     <div align=left><h2>About:</h2></div>
     <div align=left>
-        Developed by Adam Ginsburg, Tom Robitaille, Chris Beaumont, Adam Leroy,
-        Erik Rosolowsky, Crystal Brogan, Todd Hunter, Sam Skillman, and John
-        ZuHone
+        Developed by Adam Ginsburg, Tom Robitaille, Eric Koch, Chris Beaumont,
+        Adam Leroy, Erik Rosolowsky, Crystal Brogan, Todd Hunter, Sam Skillman,
+        and John ZuHone
     </div>
     <div align=left>
-        This project has been partially funded from the ALMA development program funded by the NSF.
+        This project has been partially funded from the ALMA development
+        program, with an initial grant to PI Adam Leroy and a second to Adam
+        Ginsburg.  ALMA, the NRAO, and the ALMA development program are funded
+        by the NSF.
     </div>
 
 
